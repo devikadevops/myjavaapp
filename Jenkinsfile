@@ -38,7 +38,8 @@ pipeline {
             deleteDir()
         }
         failure {
-            echo "sendmail -s mvn build failed receipients@my.com"
+            echo "sendmail -s mvn build failed 
+            receipients@my.com"
         }
         success {
             echo "The job is successful"
